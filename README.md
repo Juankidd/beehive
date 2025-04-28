@@ -37,7 +37,7 @@ Create and activate a virtual environment:
 python -m venv venv
 source venv/bin/activate    # On Linux/Mac
 venv\Scripts\activate.bat   # On Windows
-```bash
+```
 
 ## 🚀 Usage
 The project is structured in modules:
