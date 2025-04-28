@@ -61,19 +61,6 @@ etc.
 Important:
 Each CSV file represents a dataset associated with different production periods or conditions for honey generation.
 
-## Project Structure
-
-beehive/
-├── EDA_Beehives.ipynb            # Exploratory Data Analysis notebook
-├── Honey_Production_Dataset_*.csv # Datasets (various elements)
-├── lstm_prediccion_miel.py       # LSTM-based yield prediction
-├── bioinspired_algorithms.py     # Bio-inspired algorithms
-├── nodo_sensor_colmena_esp32.ino # ESP32 sensor node firmware
-├── gateway_ES32_espnow_to_serial.ino # ESP32 gateway firmware
-├── raspberry_serial_gateway.py   # Raspberry Pi serial gateway
-├── hive_scheduler_rpi_5.py       # Raspberry Pi task scheduler
-└── README.md
-
 
 ## 📚 Dependencies
 The main Python dependencies are:
