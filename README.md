@@ -37,8 +37,10 @@ Create and activate a virtual environment:
 python -m venv venv
 source venv/bin/activate    # On Linux/Mac
 venv\Scripts\activate.bat   # On Windows
-🚀 Usage
-## The project is structured in modules:
+```bash
+
+## 🚀 Usage
+The project is structured in modules:
 
 EDA_Beehives.ipynb provides an exploratory data analysis of honey production.
 
@@ -60,6 +62,7 @@ Important:
 Each CSV file represents a dataset associated with different production periods or conditions for honey generation.
 
 ## Project Structure
+
 beehive/
 ├── EDA_Beehives.ipynb            # Exploratory Data Analysis notebook
 ├── Honey_Production_Dataset_*.csv # Datasets (various elements)
@@ -70,6 +73,8 @@ beehive/
 ├── raspberry_serial_gateway.py   # Raspberry Pi serial gateway
 ├── hive_scheduler_rpi_5.py       # Raspberry Pi task scheduler
 └── README.md
+
+
 ## 📚 Dependencies
 The main Python dependencies are:
 
