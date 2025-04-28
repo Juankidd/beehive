@@ -38,7 +38,7 @@ python -m venv venv
 source venv/bin/activate    # On Linux/Mac
 venv\Scripts\activate.bat   # On Windows
 🚀 Usage
-The project is structured in modules:
+## The project is structured in modules:
 
 EDA_Beehives.ipynb provides an exploratory data analysis of honey production.
 
@@ -59,7 +59,7 @@ etc.
 Important:
 Each CSV file represents a dataset associated with different production periods or conditions for honey generation.
 
-Project Structure
+## Project Structure
 beehive/
 ├── EDA_Beehives.ipynb            # Exploratory Data Analysis notebook
 ├── Honey_Production_Dataset_*.csv # Datasets (various elements)
@@ -70,7 +70,7 @@ beehive/
 ├── raspberry_serial_gateway.py   # Raspberry Pi serial gateway
 ├── hive_scheduler_rpi_5.py       # Raspberry Pi task scheduler
 └── README.md
-📚 Dependencies
+## 📚 Dependencies
 The main Python dependencies are:
 
 pandas
@@ -93,14 +93,14 @@ scipy
 
 (See requirements.txt for the full list.)
 
-📈 Results / Examples
+## 📈 Results / Examples
 
 jupyter notebook EDA_Beehives.ipynb
 
-👥 Authors
+## 👥 Authors
 Juan Manuel Núñez Velasco (@Juankidd)
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
 
